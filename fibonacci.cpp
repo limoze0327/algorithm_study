@@ -1,5 +1,7 @@
 #include<iostream>
 
+using namespace std;
+
 long long a[91]; // 90번째 계산했을 때 값이 너무 커서 int 대신 long long 으로 수정 
 
 
@@ -14,7 +16,7 @@ long long fibonacci(int n) {
 
 int main() {
     int n;
-    std::cin >> n;
-    std::cout << fibonacci(n) << "\n";
+    cin >> n;
+    cout << fibonacci(n) << "\n";
 
 }
